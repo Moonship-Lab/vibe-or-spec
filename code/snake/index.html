@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>贪吃蛇</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1 class="title">贪吃蛇</h1>
+      <div class="controls">
+        <button id="startBtn" class="btn primary">开始</button>
+        <button id="resetBtn" class="btn">重新开始</button>
+      </div>
+    </header>
+
+    <main class="board-wrap">
+      <div class="score-wrap">
+        <span>分数</span>
+        <strong id="score">0</strong>
+      </div>
+      <canvas id="board" width="600" height="400"></canvas>
+      <div id="overlay" class="overlay hidden">
+        <div class="overlay-card">
+          <div class="overlay-title">游戏结束</div>
+          <div class="overlay-sub">撞到了墙或自己的身体</div>
+          <button id="overlayReset" class="btn primary">重新开始</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span>方向键控制：↑ ↓ ← →</span>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
