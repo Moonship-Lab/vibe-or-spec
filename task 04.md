@@ -6,4 +6,4 @@
 
 我这里接入的是会议纪要转写，toB产品有私有化部署需求，可以调用vllm、ollama或sglang的接口。
 
-![image-20260220225009556](C:%5CUsers%5Cgriff%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20260220225009556.png)
+![image-20260220225009556](task%2004.assets/image-20260220225009556.png)
